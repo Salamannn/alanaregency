@@ -1,0 +1,27 @@
+.navitem{
+    margin-left: 800px;
+}
+
+.navbar-brand{
+    margin-left: 50px;
+}
+
+img{
+    width: 100%;
+}
+
+#katalog{
+    margin-top: 20px;
+}
+
+.carousel-caption{
+    color: #C0AE5B;
+}
+
+.carousel-caption a{
+    color: #C0AE5B;
+}
+
+nav{
+    background-color: #DBEFFD;
+}
