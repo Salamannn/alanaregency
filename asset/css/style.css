@@ -6,10 +6,6 @@
     margin-left: 50px;
 }
 
-img{
-    width: 100%;
-}
-
 #katalog{
     margin-top: 20px;
 }
@@ -24,4 +20,8 @@ img{
 
 nav{
     background-color: #DBEFFD;
+}
+
+ul.note-lokasi{
+    list-style-type: none;
 }
