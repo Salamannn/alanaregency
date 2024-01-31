@@ -120,9 +120,9 @@ body {
 
 .slide-track {
     display: grid;
-   
-    grid-template-columns: repeat(20, 250px); 
-    gap: 10px; 
+
+    grid-template-columns: repeat(20, 250px);
+    gap: 10px;
     animation: scroll 40s linear infinite;
 }
 
@@ -132,9 +132,20 @@ body {
 }
 
 .slide img {
-    width: 100%; 
+    width: 100%;
     height: 100%;
-    object-fit: cover; 
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .slider {
+        width: 100%;
+    }
+
+    .slide-track {
+        /* grid-template-columns: repeat(5, 1fr); */
+        gap: 10px;
+    }
 }
 
 #Lokasi {
@@ -272,7 +283,6 @@ body {
     margin-bottom: 30px;
 }
 
-
 .carousel-item img {
     object-fit: cover;
     width: 50%;
@@ -307,14 +317,13 @@ body {
     margin-top: 0px;
 }
 
-
 @media (max-width: 768px) {
     .carousel-caption h5 {
-        font-size: 9em;
+        font-size: 1em;
     }
 
     .carousel-caption p {
-        font-size: 3em;
+        font-size: 1em;
     }
 
     .carousel-caption img {
